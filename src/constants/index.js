@@ -95,8 +95,8 @@ export const navLinks = [
       ],
     },
     {
-      title: "What's Front-End Development",
-      desc: "What's Front-End Development? is an engaging front-end project designed to teach users the fundamentals of HTML, CSS, and Javascript. The platform blends visual examples with clear written descriptions to facilitate an immersive learning experience. Users can also test their knowledge of the material by taking quizzes at the end of each course. Additionally, the project features a progress tracking system, enabling learners to monitor and celebrate their achievements as they navigate the essentials of front-end development.",
+      title: "What's Front-End Development?",
+      desc: "What's Front-End Development? is an engaging front-end project designed to teach users the fundamentals of HTML, CSS, and JavaScript. The platform blends visual examples with clear written descriptions to facilitate an immersive learning experience. Users can also test their knowledge of the material by taking quizzes at the end of each course. Additionally, the project features a progress tracking system, enabling learners to monitor and celebrate their achievements as they navigate the essentials of front-end development.",
       subdesc:
         'Built with HTML, CSS, JavaScript, Materialize CSS, and Server-side APIs',
       href: 'https://nemimoser.github.io/Whats-Coding/',
@@ -169,11 +169,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'CacheCabinet - An Organization App',
+      desc: 'CacheCabinet is a platform designed to enhance organization and productivity. Leveraging MongoDB, Express.js, React.js, and Node.js, users can create individual accounts with secure logins. Once logged in, users gain the ability to create, edit, save, and delete personalized collections of items tailored to their needs.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Built with React.js, MongoDB, GraphQL, Node.js, Express.js, and Bulma CSS.',
+      href: 'https://cache-cabinet.onrender.com/',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -184,61 +184,24 @@ export const navLinks = [
       spotlight: '/assets/spotlight4.png',
       tags: [
         {
-          id: 1,
+          id: 12,
+          name: 'MongoDB',
+          path: '/assets/mongodb.svg',
+        },
+        {
+          id: 13,
+          name: 'GraphQL',
+          path: 'assets/graphql.svg',
+        },
+        {
+          id: 14,
           name: 'React.js',
           path: '/assets/react.svg',
         },
         {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          id: 10,
+          name: 'Node.js',
+          path: '/assets/node-js.svg',
         },
       ],
     },
