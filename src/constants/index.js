@@ -58,24 +58,24 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Meeteor - A Video Conferencing App',
+      desc: 'With Meeteor, registered users can create video meetings, schedule future meetings, join meetings via links, and record meetings to view them later.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built with Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS.',
+      href: 'https://meeteor.vercel.app/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
+        backgroundColor: '#020264',
+        border: '0.2px solid #020264',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/next-js.svg',
         },
         {
           id: 2,
@@ -89,8 +89,8 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Clerk',
+          path: '/assets/clerk.svg',
         },
       ],
     },
