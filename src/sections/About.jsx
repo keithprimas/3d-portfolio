@@ -64,7 +64,7 @@ const About = () => {
                         <p className='grid-subtext'>
                           I'm based in Charlotte, North Carolina, USA
                         </p>
-                        <Button name='Contact Me' isBeam containerClass='w-full mt-10'/>
+                        <a href='/assets/Keith Primas-Software-Engineer.pdf' target='_blank'><Button name='Resume' isBeam containerClass='w-full mt-5'/></a>
                     </div>
                 </div>
             </div>
