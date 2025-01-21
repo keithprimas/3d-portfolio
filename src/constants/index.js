@@ -79,7 +79,7 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
+          name: 'Tailwind CSS',
           path: 'assets/tailwindcss.png',
         },
         {
@@ -132,11 +132,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Bizi - A Business Card Builder',
+      desc: 'Bizi is a fullstack application where users can create professional business cards through a seamless signup and login experience. Using technologies such as Handlebars.js, MySQL, Node.js, and Express.js, the platform ensures a robust and responsive web application. Users can efficiently generate personalized business cards by providing information through intuitive prompts.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Built with Node.js, Express.js, Handlebars.js, MySQL, JavaScript, and Bootstrap.',
+      href: 'https://obscure-peak-64800-68ab39cc8564.herokuapp.com/login',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -147,24 +147,24 @@ export const navLinks = [
       spotlight: '/assets/spotlight3.png',
       tags: [
         {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          id: 9,
+          name: 'Handlebars.js',
+          path: '/assets/handlebars.svg',
         },
         {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          id: 10,
+          name: 'Node.js',
+          path: 'assets/node-js.svg',
         },
         {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          id: 11,
+          name: 'Express.js',
+          path: '/assets/express.svg',
         },
         {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          id: 5,
+          name: 'JavaScript',
+          path: '/assets/javascript.svg',
         },
       ],
     },
