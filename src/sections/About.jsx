@@ -43,7 +43,7 @@ const About = () => {
                           lat: 35.22, lng: -80.84,
                           text: "I'm here!",
                           color: 'white',
-                          size: 80,
+                          size: 83,
                         }]}
                         />
                     </div>
@@ -52,8 +52,9 @@ const About = () => {
                           I'm available to work remotely across most timezones.
                         </p>
                         <p className='grid-subtext'>
-                          I'm based in Charlotte, North Carolina, USA
+                          I'm based in Charlotte, North Carolina, USA.
                         </p>
+                        <p className='grid-subtext'>(Zoom in to find me on the globe!)</p>
                         <a href='/assets/Keith Primas-Software-Engineer.pdf' target='_blank'><Button name='Resume' isBeam containerClass='w-full mt-5'/></a>
                     </div>
                 </div>
@@ -65,8 +66,8 @@ const About = () => {
                         <div>
                              <p className='grid-headtext'>My journey</p>
                              <p className='grid-subtext'>After being a pharmacy tech for more than 5 years, I decided I needed a career change. 
-                                From there, I started learning web development in 2023 and attended a fullstack bootcamp which I graudated from in 2024.
-                                Since then, I have been working on various projects to hone my skills and build my portfolio to pursure a career in web development.
+                                From there, I started learning web development in 2023 and attended a fullstack bootcamp, from which I graduated in 2024.
+                                Since then, I have been working on various projects to hone my skills and build my portfolio to pursue a career in web development.
                              </p>
                         </div>
                 </div>
