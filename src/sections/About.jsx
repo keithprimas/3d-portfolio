@@ -75,17 +75,17 @@ const About = () => {
             <div className='xl:col-span-1 xl:row-span-2'>
                 <div className='grid-container'>
                     <div className='flex flex-row justify-between items-center space-x-2'>
-                        <img src='/assets/uncc.png' alt='uncc' className='w-[125px] h-fit object-cover sm:object-top'/>
-                        <img src='/assets/gwu.png' alt='gwu' className='w-[125px] h-fit object-cover sm:object-top'/>
+                        <img src='/assets/uncc.png' alt='uncc' className='w-[125px] h-[100] object-cover sm:object-top'/>
+                        <img src='/assets/gwu.png' alt='gwu' className='w-[125px] h-[95px] object-cover sm:object-top'/>
                     </div>
                     <div className='space-y-2'>
                         <p className='grid-headtext text-left'>Education</p>
                         <div>
                             <p className='grid-subtext'>
-                            University of North Carolina at Charlotte 2024
+                            UNC Charlotte 2024
                             </p>
                             <p className='grid-subtext font-semibold'>
-                                - Fullstack Web Development Bootcamp
+                                - Fullstack Development Bootcamp
                             </p>
                         </div>
                         <div>
