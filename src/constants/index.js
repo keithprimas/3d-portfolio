@@ -205,6 +205,43 @@ export const navLinks = [
         },
       ],
     },
+    {
+      title: 'filmastry- A Movie Search App',
+      desc: 'With filmastry, users can utilize The Movie Database (TMDB) API to search for movies and view relevant details such as star ratings and release date. The top 5 trending movies are displayed based on the number of searches by users.',
+      subdesc:
+        'Built with React.js, Appwrite, TMDB API, and Tailwind CSS.',
+      href: 'https://filmastry.keithprimas.com/',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.svg',
+      logoStyle: {
+        backgroundColor: '#1c1c21',
+        border: '0.2px solid #1c1c21',
+        boxShadow: '0px 0px 60px 0px #2F67B64D',
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 14,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 8,
+          name: 'APIs',
+          path: '/assets/api.svg',
+        },
+        {
+          id: 2,
+          name: 'Tailwind CSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 10,
+          name: 'Node.js',
+          path: '/assets/appwrite.svg',
+        },
+      ],
+    },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
