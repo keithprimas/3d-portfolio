@@ -55,7 +55,7 @@ const About = () => {
                           I'm based in Charlotte, North Carolina, USA.
                         </p>
                         <p className='grid-subtext'>(Zoom in to find me on the globe!)</p>
-                        <a href='/assets/Keith Primas-SoftwareEngineer..pdf' target='_blank'><Button name='Resume' isBeam containerClass='w-full mt-5'/></a>
+                        <a href='/assets/Keith Primas-SoftwareEngineer.pdf' target='_blank'><Button name='Resume' isBeam containerClass='w-full mt-5'/></a>
                     </div>
                 </div>
             </div>
