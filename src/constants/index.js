@@ -25,7 +25,7 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Meeteor - A Video Conferencing App',
-      desc: 'With Meeteor, registered users can create video meetings, schedule future meetings, join meetings via links, and record meetings to view them later.',
+      desc: 'With Meeteor, users have authentication powered by Clerk, allowing users to securely log in using social sign-on or traditional email and password while ensuring proper access control. Users can start a new meeting effortlessly, configuring their camera and microphone settings before joining. During meetings, participants have full meeting controls, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout customization, and managing individual participants by pinning, muting, unmuting, or blocking them. Users can exit meetings at any time, while meeting creators have the ability to end the session for all attendees. Meeteor also many more features including joining meetings via links and viewing recorded meetings.',
       subdesc:
         'Built with Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS.',
       href: 'https://meeteor.vercel.app/',
@@ -173,7 +173,7 @@ export const navLinks = [
     },
     {
       title: 'filmastry- A Movie Search App',
-      desc: 'With filmastry, users can utilize The Movie Database (TMDB) API to search for movies and view relevant details such as star ratings and release date. The top 5 trending movies are displayed based on the number of searches by users.',
+      desc: 'With filmastry, users can utilize TheMovieDatabase (TMDB) API to search for available movies on the platform and view relevant details such as star ratings and release date. The top 5 trending movies are displayed based on a dynamic algorithm from the number of searches by users.',
       subdesc:
         'Built with React.js, Appwrite, TMDB API, and Tailwind CSS.',
       href: 'https://filmastry.keithprimas.com/',
